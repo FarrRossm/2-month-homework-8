@@ -1,0 +1,104 @@
+.big-box{
+    width: 1240px;
+    height: 1021px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F5FF 100%);
+    &__box1{
+        display: flex;
+        flex-direction: column;
+        width: 1038px;
+        // height: 723px;
+        &__main1{
+            height: 24px;
+            font-family: sans-serif ;
+           
+            
+        }
+
+        &__main2{
+            color: black;
+            &__text{
+                color: $main-color;
+            }
+        }
+
+        &__main3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 508px;
+            height: 52px;
+            margin: 0 auto;
+            &__btn1{
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center ;
+                text-align: center ;
+                width: 209px;
+                height: 52px;
+                padding: 10px 20px  ;
+                justify-content: space-between ;
+                color: #fff;
+                background: $main-color ;
+                border-radius: $btn-radius ;
+                -webkit-border-radius: $btn-radius ;
+                -moz-border-radius: $btn-radius ;
+                -ms-border-radius: $btn-radius ;
+                -o-border-radius: $btn-radius ;
+                font-size: 12px;
+                &:hover{
+                    color: $main-color ;
+                    background:  #fff ;
+                }
+            }
+
+            &__btn2{
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center ;
+                text-align: center ;
+                width: 252px;
+                height: 52px;
+                border: 1px solid $main-color ;
+                padding: 10px 20px  ;
+                justify-content: space-between ;
+                color: #fff;
+                background:  $main-color ;
+                border-radius: $btn-radius ;
+                -webkit-border-radius: $btn-radius ;
+                -moz-border-radius: $btn-radius ;
+                -ms-border-radius: $btn-radius ;
+                -o-border-radius: $btn-radius ;
+                font-size: 12px;
+                &:hover{
+                    color: $main-color ;
+                    background:  #fff ;
+                }
+            }
+
+        }
+
+        &__main4{
+            width: 410px;
+            margin: 0 auto;
+            &__chiziq{
+                width: 405px;
+                height: 0px;
+                color:  $main-color ;
+                margin-top: 54px ;
+            } 
+
+        }
+    }
+    &__box2{
+        margin-top: -90px auto;
+    }
+
+}
+    

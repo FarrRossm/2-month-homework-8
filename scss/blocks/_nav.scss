@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  height: 120px;
+
+    &__brand{
+        margin-left: 5px;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+
+        &__item{
+            list-style-type: none;
+
+            &--link{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    color: $text-color ;
+                }
+            }
+        }
+
+        .btn{
+            border: 1px #fff solid ;
+            padding: 12px 35px ;
+            border-radius: $btn-radius;
+            -webkit-border-radius: $btn-radius;
+            -moz-border-radius: $btn-radius;
+            -ms-border-radius: $btn-radius;
+            -o-border-radius: $btn-radius;
+        }
+    }
+}
